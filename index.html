@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nostr.club – NIP-05 Identity Hub</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d0d0d;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(90deg, #ff00cc, #3333ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 0.5rem 1rem;
+      padding: 0.7rem 1.2rem;
+      background-color: #222;
+      color: #fff;
+      border: 1px solid #555;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .links a:hover {
+      background-color: #444;
+      transform: scale(1.05);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+        padding: 0 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>nostr.club</h1>
+  <p>Vanity NIP-05 identities and Lightning-powered profiles for the open social web.</p>
+
+  <div class="links">
+    <a href="/coffee">→ coffee</a>
+    <a href="/serene">→ serene</a>
+    <a href="https://github.com/nostrclub/nostr" target="_blank">GitHub</a>
+  </div>
+
+  <div class="footer">
+    Built on <a href="https://nostr.com" style="color:#888;" target="_blank">Nostr</a> • Powered by ⚡ Lightning
+  </div>
+</body>
+</html>
